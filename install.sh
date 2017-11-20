@@ -56,9 +56,10 @@ fi
 mkdir -p $SUBL_PATH/Packages/User $SUBL_PATH/Installed\ Packages
 backup "$SUBL_PATH/Packages/User/Preferences.sublime-settings"
 curl -k https://sublime.wbond.net/Package%20Control.sublime-package > $SUBL_PATH/Installed\ Packages/Package\ Control.sublime-package
-ln -s $PWD/Preferences.sublime-settings $SUBL_PATH/Packages/User/Preferences.sublime-settings
-ln -s $PWD/Package\ Control.sublime-settings $SUBL_PATH/Packages/User/Package\ Control.sublime-settings
-ln -s $PWD/Python.sublime-settings $SUBL_PATH/Packages/User/Python.sublime-settings
+ln -s $PWD/sublime_settings/Default\ \(OSX\).sublime-keymap $SUBL_PATH/Packages/User/Default\ \(OSX\).sublime-keymap
+ln -s $PWD/sublime_settings/Package\ Control.sublime-settings $SUBL_PATH/Packages/User/Package\ Control.sublime-settings
+ln -s $PWD/sublime_settings/Preferences.sublime-settings $SUBL_PATH/Packages/User/Preferences.sublime-settings
+ln -s $PWD/sublime_settings/Python.sublime-settings $SUBL_PATH/Packages/User/Python.sublime-settings
 
 zsh ~/.zshrc
 

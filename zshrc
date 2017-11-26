@@ -31,3 +31,4 @@ export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bi
 eval "$(rbenv init -)"
 eval "$(pyenv init -)"
 export PATH="/usr/local/opt/berkeley-db@4/bin:$PATH"
+export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"

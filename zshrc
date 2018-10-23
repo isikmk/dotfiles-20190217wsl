@@ -39,3 +39,6 @@ export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 
 # for aws
 export PATH=~/.local/bin:$PATH
+
+# for openssl
+export PATH=/usr/local/opt/openssl@1.1/bin:$PATH
